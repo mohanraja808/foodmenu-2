@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.head-content {
+    top: 0;
+    width: 100%;
+    background: white;
+
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+}
+
+.nav-links li a {
+    padding: 8px 12px;
+    color: #323f4b;
+    font-size: 14px;
+}
+
+.nav-links {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 12px 0 0;
+}
+
+@media (min-width: 768px) {
+    .nav-links {
+        width: auto;
+        margin-left: auto;
+        margin-top: 0;
+        justify-content: flex-end;
+    }
+}
+
+.banner {
+    height: 100vh;
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 45px;
+    color: white;
+    font-weight: 300;
+}
+
+.banner-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px
+}
+
+.custom-button {
+    background-color: #d0b200;
+    color: white;
+    border: 0;
+}
+
+.custom-outline-button {
+    background-color: transparent;
+    color: #d0b200;
+    border: solid 1px #d0b200;
+}
+
+.custom-button,
+.custom-outline-button {
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.why-choose-us {
+    background-color: #f9fbfe;
+}
+
+.container {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.feature-card {
+    width: 100%;
+    max-width: 320px;
+    background: #ffffff;
+    border: 1px solid #e5eaf4;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.menucard {
+    width: 100%;
+    max-width: 320px;
+    background: #ffffff;
+    border: 1px solid #e5eaf4;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 1px 1px 1px #00000026;
+}
